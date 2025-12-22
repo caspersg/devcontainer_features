@@ -1,4 +1,4 @@
 # Dev Container Features
 
-## nvim
+## neovim
 

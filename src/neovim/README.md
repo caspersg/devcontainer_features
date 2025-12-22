@@ -7,7 +7,7 @@ Install neovim from binary
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
+    "ghcr.io/caspersg/devcontainer_features/neovim:1": {
         "version": "latest"
     }
 }
