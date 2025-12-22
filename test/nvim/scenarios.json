@@ -1,9 +1,9 @@
 {
-    "hello": {
+    "test": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "nvim": {
+                "version": "stable"
             }
         }
     }

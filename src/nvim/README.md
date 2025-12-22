@@ -1,7 +1,7 @@
 
-# Hello, World! (hello)
+# Neovim binary
 
-A hello world feature
+Install neovim from binary
 
 ## Example Usage
 
@@ -17,7 +17,7 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | version of neovim 'stable' 'nightly' 'v0.11.5' | string | 'stable' |
 
 
 
