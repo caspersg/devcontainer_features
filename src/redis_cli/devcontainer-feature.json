@@ -1,17 +1,17 @@
 {
-    "id": "kafka_cli",
+    "id": "redis_cli",
     "version": "1.0.2",
-    "name": "Kafka CLI tools",
-    "description": "Installs the kafka cli tools",
+    "name": "Redis CLI Binary",
+    "description": "Installs the redis cli binary",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "2.13-4.1.1",
-                "2.12-3.9.1"
+                "6:7.2.12-1rl1~bookworm1",
+                "latest"
             ],
-            "default": "2.13-4.1.1",
-            "description": "Select the scala and kafka version to install"
+            "default": "latest",
+            "description": "Select the redis apt version to install"
         }
     },
     "containerEnv": {
