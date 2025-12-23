@@ -16,7 +16,7 @@
         }
     },
     "containerEnv": {
-        "PATH": "/opt/local/nvim/bin/:${PATH}"
+        "PATH": "/opt/local/nvim/bin:${PATH}"
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
