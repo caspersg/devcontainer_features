@@ -2,6 +2,7 @@
 
 ## neovim
 ## kafka_cli
+## redis
 
 ## Example usage
 
@@ -19,7 +20,10 @@ It also mounts your neovim config into the container.
 
     "ghcr.io/caspersg/devcontainer_features/neovim:1": {},
 
-    "ghcr.io/caspersg/devcontainer_features/kafka_cli:1": {}
+    "ghcr.io/caspersg/devcontainer_features/kafka_cli:1": {},
+
+
+    "ghcr.io/caspersg/devcontainer_features/redis_cli:1": {}
   },
   "mounts": [
     "source=${localEnv:HOME}/.config/nvim,target=/home/vscode/.config/nvim,type=bind,consistency=cached"

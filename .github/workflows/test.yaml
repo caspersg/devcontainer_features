@@ -15,6 +15,7 @@ jobs:
         features:
           - neovim
           - kafka_cli
+          - redis_cli
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -36,6 +37,7 @@ jobs:
         features:
           - neovim
           - kafka_cli
+          - redis_cli
     steps:
       - uses: actions/checkout@v4
 

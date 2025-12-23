@@ -1,0 +1,23 @@
+{
+    "id": "redis_cli",
+    "version": "1.0.0",
+    "name": "Redis CLI Binary",
+    "description": "Installs the redis cli binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "6:7.2.12-1rl1~bookworm1",
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select the redis apt version to install"
+        }
+    },
+    "containerEnv": {
+        "PATH": "/opt/local/kafka/bin:${PATH}"
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

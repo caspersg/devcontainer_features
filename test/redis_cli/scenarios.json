@@ -1,0 +1,18 @@
+{
+    "test": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "redis_cli": {
+                "version": "latest"
+            }
+        }
+    },
+    "test_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "redis_cli": {
+                "version": "6:7.2.12-1rl1~noble1"
+            }
+        }
+    }
+}
