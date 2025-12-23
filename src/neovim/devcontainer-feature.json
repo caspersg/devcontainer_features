@@ -6,13 +6,19 @@
     "options": {
         "version": {
             "type": "string",
-            "proposals": ["stable", "nightly", "v0.11.5"],
+            "proposals": [
+                "stable",
+                "nightly",
+                "v0.11.5"
+            ],
             "default": "stable",
             "description": "Select the Neovim version to install."
         }
+    },
+    "containerEnv": {
+        "PATH": "/opt/local/nvim/bin/:${PATH}"
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
 }
-

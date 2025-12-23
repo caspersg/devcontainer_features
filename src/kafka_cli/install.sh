@@ -16,8 +16,7 @@ echo "downloading ${URL}"
 curl -LO $URL
 tar -xzf kafka_${VERSION}.tgz
 mkdir -p /opt/local
-mv kafka_${VERSION} /opt/local/kafka
-ln -s /opt/local/kafka/bin/* /usr/local/bin/
+mv "kafka_${VERSION}" /opt/local/kafka
 
 rm kafka_${VERSION}.tgz
 

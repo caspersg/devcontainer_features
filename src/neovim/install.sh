@@ -28,7 +28,6 @@ echo "downloadng ${URL}"
 curl -LO $URL
 mkdir -p /opt/local/nvim
 tar xzf "nvim-linux-${arch}.tar.gz" -C /opt/local/nvim --strip-components=1
-ln -s /opt/local/nvim/bin/nvim /usr/local/bin/nvim
 
 # Clean up
 rm "nvim-linux-${arch}.tar.gz"
