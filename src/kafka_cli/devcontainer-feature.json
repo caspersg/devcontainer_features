@@ -1,6 +1,6 @@
 {
     "id": "kafka_cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Kafka CLI tools",
     "description": "Installs the kafka cli tools",
     "options": {
@@ -13,6 +13,9 @@
             "default": "2.13-4.1.1",
             "description": "Select the scala and kafka version to install"
         }
+    },
+    "containerEnv": {
+        "PATH": "/opt/local/kafka/bin:${PATH}"
     },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
