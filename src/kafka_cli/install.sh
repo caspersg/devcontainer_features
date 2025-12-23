@@ -13,10 +13,10 @@ apt-get install -y curl ca-certificates default-jre
 URL="https://downloads.apache.org/kafka/${KAFKA_VERSION}/kafka_${VERSION}.tgz"
 echo "downloading ${URL}"
 curl -LO $URL
-tar -xzf kafka_${SCALA_VERSION}-${KAFKA_VERSION}.tgz
-mv kafka_${SCALA_VERSION}-${KAFKA_VERSION} /opt/local/kafka
+tar -xzf kafka_${VERSION}.tgz
+mv kafka_${VERSION} /opt/local/kafka
 ln -s /opt/local/kafka/bin/* /usr/local/bin/
 
-rm kafka_${SCALA_VERSION}-${KAFKA_VERSION}.tgz
+rm kafka_${VERSION}.tgz
 
 echo "kafka cli installation complete."
