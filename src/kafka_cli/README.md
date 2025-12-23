@@ -1,15 +1,13 @@
 
-# Kafka CLI tools
+# Kafka CLI tools (kafka_cli)
 
-Installs kafka cli tools, by installing the kafka binaries
+Installs the kafka cli tools
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/caspersg/devcontainer_features/kafka_cli:1": {
-        "version": "2.13-4.1.1",
-    }
+    "ghcr.io/caspersg/devcontainer_features/kafka_cli:1": {}
 }
 ```
 
@@ -17,7 +15,7 @@ Installs kafka cli tools, by installing the kafka binaries
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select the scala and kafka version to install. | string | stable |
+| version | Select the scala and kafka version to install | string | 2.13-4.1.1 |
 
 
 
