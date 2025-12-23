@@ -3,6 +3,7 @@ set -e
 
 # The 'install.sh' script is executed as root
 VERSION=${VERSION:-"2.13-4.1.1"}
+KAFKA_VERSION="${VERSION#*-}"
 
 echo "Installing kafka cli version: ${VERSION}..."
 
