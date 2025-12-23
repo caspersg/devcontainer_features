@@ -1,0 +1,10 @@
+{
+    "test": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "kafka_cli": {
+                "version": "2.13-4.1.1"
+            }
+        }
+    }
+}
