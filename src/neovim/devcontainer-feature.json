@@ -1,6 +1,6 @@
 {
     "id": "neovim",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Neovim (Binary)",
     "description": "Installs Neovim by downloading the pre-compiled binary",
     "options": {
