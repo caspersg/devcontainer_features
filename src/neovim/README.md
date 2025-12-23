@@ -1,15 +1,13 @@
 
-# Neovim binary
+# Neovim (Binary) (neovim)
 
-Install neovim from binary
+Installs Neovim by downloading the pre-compiled binary
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/caspersg/devcontainer_features/neovim:1": {
-        "version": "latest"
-    }
+    "ghcr.io/caspersg/devcontainer_features/neovim:1": {}
 }
 ```
 
@@ -17,10 +15,10 @@ Install neovim from binary
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | version of neovim 'stable' 'nightly' 'v0.11.5' | string | 'stable' |
+| version | Select the Neovim version to install. | string | stable |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/caspersg/devcontainer_features/blob/main/src/neovim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
