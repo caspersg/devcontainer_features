@@ -1,0 +1,18 @@
+{
+    "id": "neovim",
+    "version": "1.0.0",
+    "name": "Neovim (Binary)",
+    "description": "Installs Neovim by downloading the pre-compiled binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": ["stable", "nightly", "v0.11.5"],
+            "default": "stable",
+            "description": "Select the Neovim version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
+
