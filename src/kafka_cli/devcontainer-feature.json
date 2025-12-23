@@ -1,6 +1,6 @@
 {
     "id": "kafka_cli",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Kafka CLI tools",
     "description": "Installs the kafka cli tools",
     "options": {
